@@ -39,6 +39,9 @@ public class Character{
     }
     return 1;
   }
+  public int enemySelectMove(){
+    return (int)Math.random()*3+1;
+  }
   
   public int getHealth(){return health;}
   public int getDexterity(){return dexterity;}

@@ -37,7 +37,7 @@ public class Character{
     if (keyboard.nextLine() == "3"){
       return 3;
     }
-    
+    return 1;
   }
   
   public int getHealth(){return health;}
@@ -46,14 +46,14 @@ public class Character{
   public int getRanged(){return ranged;}
   public int getArmorClass(){return armorClass;}
   
-  public int addHealth(int additionalHealth){health += additionalHealth;}
-  public int minusHealth(int subtractedHealth){health -= subtractedHealth;}
-  public int addDexterity(int additionalDexterity){dexterity += additionalDexterity;}
-  public int minusDexterity(int subtractedDexterity){dexterity -= subtractedDexterity;}
-  public int addStrength(int additionalStrength){strength += additionalStrength;}
-  public int minusStrength(int subtractedStrength){strength -= subtractedStrength;}
-  public int addRanged(int additionalRanged){ranged += additionalRanged;}
-  public int minusRanged(int subtractedRanged){ranged -= subtractedRanged;}
-  public int addArmorClass(int additionalArmorClass){armorClass += additionalArmorClass;}
-  public int minusArmorClass(int subtractedArmorClass){armorClass -= subtractedArmorClass;}
+  public void addHealth(int additionalHealth){health += additionalHealth;}
+  public void minusHealth(int subtractedHealth){health -= subtractedHealth;}
+  public void addDexterity(int additionalDexterity){dexterity += additionalDexterity;}
+  public void minusDexterity(int subtractedDexterity){dexterity -= subtractedDexterity;}
+  public void addStrength(int additionalStrength){strength += additionalStrength;}
+  public void minusStrength(int subtractedStrength){strength -= subtractedStrength;}
+  public void addRanged(int additionalRanged){ranged += additionalRanged;}
+  public void minusRanged(int subtractedRanged){ranged -= subtractedRanged;}
+  public void addArmorClass(int additionalArmorClass){armorClass += additionalArmorClass;}
+  public void minusArmorClass(int subtractedArmorClass){armorClass -= subtractedArmorClass;}
 }
